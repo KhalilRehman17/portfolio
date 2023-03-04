@@ -84,7 +84,10 @@ nav{
         letter-spacing: 0px;
     }
     nav{
-        height: 80px;
+        height: 60px;
+        background-color: white;
+        z-index: 1000;
+
     }
     img{
         width: 27px;
@@ -117,15 +120,16 @@ nav{
     }
     .head-containt-left{
         position: relative;
-        height: 500px;
+        height: 450px;
         border-bottom: 3px solid grey;
     }
     .profile-resp{
         position: absolute;
-        width: 100%;
+        width: 110%;
         height: 100%;
+        bottom: 30px;
         background: url(profile.png);
-        background-position: center;
+        background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
         z-index: 1;
@@ -135,7 +139,7 @@ nav{
         z-index: 100;
         margin-top: 20px;
         font-weight: 800;
-        font-size: 25px;
+        font-size: 20px;
     }
     .home-social-icon{
         z-index: 100;
@@ -143,7 +147,7 @@ nav{
     .home-btn{
         position: absolute;
         color: #fff;
-        margin-top: 20px;
+        margin-top: 30px;
         padding: 10px 15px;
         background-color: black;
         border-radius: 30px;
