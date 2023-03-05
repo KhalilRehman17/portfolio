@@ -10,13 +10,13 @@
     .section-1{
         justify-content: center;
         flex-direction:column-reverse;
-        height: 120vh;
+        height: 1000px;
         row-gap: 70px;
     }
 
     .sec-1_col-1{
         flex-basis: 35%;
-        padding: 70px 50px;
+        padding: 70px 40px;
     }
 
     .sec-1_col-2{
