@@ -38,6 +38,7 @@ header{
 }
 .head-nav{
     position: fixed;
+    z-index: 1000;
     background-color: rgb(235, 229, 229);
     top: 0;
     left: 0;
@@ -88,8 +89,9 @@ header{
     align-items: center;
 }
 .sec-1_col-1{
-    flex-basis: 40%;
-    padding: 30px 50px;
+    width: 45%;
+    height: 70%;
+    padding: 50px 72px;
     background: white;
     border-radius: 10%;
     display: flex;
@@ -105,13 +107,13 @@ header{
 .home_subtitle{
     margin-left: 15px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .home_description{
     font-size: 13px;
     letter-spacing: .5px;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .say_hello{
     width: fit-content;
@@ -127,21 +129,28 @@ header{
 
 /* ----------------------------------- */
 .sec-1_col-2{
-    flex-basis: 40%;
+    width: 40%;
     /* padding: 30px 50px; */
-    height: 400px;
-    background: url(profile.png);
+    height: 70%;
+    background: url(/profile.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 50%;
+    border-radius: 10%;
     display: flex;
     flex-direction: column;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, .08);
-
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .09);
+    position: relative;
     justify-content: center;
     padding: 20px;
     row-gap: 20px;
+}
+.profile_botom{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    display: flex;
+    gap: 10px;
 }
 
 
