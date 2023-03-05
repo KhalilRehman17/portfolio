@@ -1,0 +1,35 @@
+@media (width <= 768px){
+    .hide{
+        display: none;
+    }
+    .toggel-btn{
+        display: inline-block;
+    }
+
+    /* ----------Sectioin 01------------- */
+    .section-1{
+        justify-content: center;
+        flex-direction:column-reverse;
+        height: 190vh;
+        row-gap: 70px;
+    }
+
+    .sec-1_col-1{
+        flex-basis: 35%;
+        padding: 70px 50px;
+    }
+
+    .sec-1_col-2{
+    width: 100%;
+    /* padding: 30px 50px; */
+    height: 700px;
+    background: url(profile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .08);
+    }
+}
